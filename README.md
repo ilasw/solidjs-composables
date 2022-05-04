@@ -1,34 +1,48 @@
-## Usage
+# Solidjs Use
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+Collection of essential Solidjs composition utilities
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## 📦 Install
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm i -S solidjs-use
+# or
+yarn add solidjs-use
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Composable functions
 
-## Available Scripts
+#### Legend
 
-In the project directory, you can run:
+- ✅ = Implemented
+- ⏩ = Coming next
+- ☠️ = Deprecating soon
 
-### `npm dev` or `npm start`
+#### List
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Logical
+    - ✅ `useToggle` - a boolean switcher with utility functions;
 
-The page will reload if you make edits.<br>
+- Browser
+    - ✅ `useMedia` - tracks state of a CSS media query;
+    - ⏩ `useMouse`
+    - ⏩ `usePrefersColor`
+    - ⏩ `usePrefersReducedMotion`
+    - ⏩ `useUrlSearchParams`
+    - ⏩ `useWindowSize`
+    - ⏩ `useWindowScroll`
 
-### `npm run build`
+- Storage
+    - ⏩ `useCookie`
+    - ⏩ `useLocalStorage`
+    - ⏩ `useSessionStorage`
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+- Elements
+    - ⏩ `useElementBounding`
+    - ⏩ `useElementScroll`
+    - ⏩ `useElementSize`
+    - ⏩ `useIntersectionObserver`
+    - ⏩ `useMutationObserver`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+- Network
+    - ✅ `useNetworkState` - tracks state of connection;

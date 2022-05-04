@@ -1,6 +1,6 @@
 {
-  "name": "solid-use",
-  "version": "0.0.1",
+  "name": "solidjs-use",
+  "version": "0.0.2",
   "description": "Collection of SolidJS composable functions",
   "main": "./dist/index.js",
   "author": "Luca Pagliaro <pagliaroluca@gmail.com>",
