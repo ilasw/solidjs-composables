@@ -1,4 +1,4 @@
-# Solidjs Use
+# SolidUse
 
 Collection of essential Solidjs composition utilities
 
@@ -22,7 +22,6 @@ yarn add solidjs-use
 
 - Logical
     - ✅ `useToggle` - a boolean switcher with utility functions;
-
 - Browser
     - ✅ `useMedia` - tracks state of a CSS media query;
     - ⏩ `useMouse`
@@ -31,18 +30,15 @@ yarn add solidjs-use
     - ⏩ `useUrlSearchParams`
     - ⏩ `useWindowSize`
     - ⏩ `useWindowScroll`
-
 - Storage
     - ⏩ `useCookie`
     - ⏩ `useLocalStorage`
     - ⏩ `useSessionStorage`
-
 - Elements
     - ⏩ `useElementBounding`
     - ⏩ `useElementScroll`
     - ⏩ `useElementSize`
     - ⏩ `useIntersectionObserver`
     - ⏩ `useMutationObserver`
-
 - Network
     - ✅ `useNetworkState` - tracks state of connection;

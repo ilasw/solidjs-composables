@@ -1,7 +1,5 @@
 import type {Component} from 'solid-js';
-
-import {useMedia, useToggle, useNetworkState} from "./composables";
-import logo from './logo.svg';
+import {useMedia, useToggle, useNetworkState} from "../packages/core";
 import styles from './App.module.css';
 
 const App: Component = () => {
