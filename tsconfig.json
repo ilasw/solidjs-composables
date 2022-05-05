@@ -3,6 +3,7 @@
     "strict": true,
     "target": "ESNext",
     "module": "ESNext",
+    "declaration": true,
     "lib": [
       "es2020",
       "dom"
