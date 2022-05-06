@@ -13,27 +13,23 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": [
-      "vite/client"
-    ],
     "noEmit": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "outDir": "./dist",
-    "baseUrl": ".",
+    "baseUrl": "..",
     "paths": {
-      "@/*": [
-        "./src/*"
+      "@/core/*": [
+        "../packages/core/src/*"
       ]
     }
   },
   "include": [
-    "./index.ts",
-    "./src/*"
+    "../packages/core",
+    "./src",
   ],
   "exclude": [
     "tests",
-    "dist",
     "node_modules"
   ]
 }

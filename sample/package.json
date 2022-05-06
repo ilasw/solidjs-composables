@@ -1,13 +1,12 @@
 {
-  "name": "solidjs-use",
+  "name": "solid-composables",
   "version": "0.0.3",
   "description": "Collection of SolidJS composable functions",
   "main": "./dist/index.js",
   "author": "Luca Pagliaro <pagliaroluca+solid@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SolidJSUse/solidjs-use.git",
-    "directory": "packages/core"
+    "url": "git+https://github.com/SolidJSUse/solidjs-use.git"
   },
   "sideEffects": false,
   "scripts": {
@@ -15,7 +14,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "build-composables": "tsc --project tsconfig.json"
+    "build-composables": "tsc --project tsconfig.build.json",
+    "release": "npm run build-composables && np --contents=dist"
   },
   "license": "MIT",
   "peerDependencies": {

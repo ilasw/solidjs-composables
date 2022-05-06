@@ -1,0 +1,8 @@
+node_modules
+
+lib/
+.idea/
+.vscode/
+coverage/
+types/
+.DS_Store
