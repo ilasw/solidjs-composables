@@ -1,12 +1,8 @@
 # useAtom
 
-----
-
 An utility function that that can be used to get and set the value
 
 ## Definition
-
-----
 
 Accept one generic argument for typing the value.
 
@@ -15,8 +11,6 @@ Accept one generic argument for typing the value.
 @returns A function that takes an optional parameter and returns a value.
 
 ## Usage
-
-----
 
 ```tsx
 

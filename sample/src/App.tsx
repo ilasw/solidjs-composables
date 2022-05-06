@@ -7,7 +7,8 @@ import {
   useNetworkState,
   useMouse,
   useWindowScroll,
-  useWindowSize, useEventListener, useAtom
+  useWindowSize,
+  useAtom
 } from "@/core";
 
 const App: Component = () => {
