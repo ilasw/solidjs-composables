@@ -1,5 +1,5 @@
 import {createSignal} from "solid-js";
-import {useEventListener} from "@/browser/use-event-listener";
+import {useEventListener} from "../../browser";
 import {isServer} from "solid-js/web";
 
 export const useNetworkState = () => {

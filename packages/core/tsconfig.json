@@ -19,12 +19,6 @@
     "esModuleInterop": true,
     "target": "ES2017",
     "outDir": "./dist",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
   },
   "exclude": [
     "node_modules"

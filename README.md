@@ -21,7 +21,7 @@ yarn add solidjs-use
 #### Functions
 
 - Logical
-    - ✅ `useAtom` - utility for using one variable for get/set Accessors;
+    - ✅ `index` - utility for using one variable for get/set Accessors;
     - ✅ `useToggle` - a boolean switcher with utility functions;
 - Browser
     - ✅ `useEventListener` - event listener that unsubscribe on cleanup;

@@ -10,7 +10,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@/core': path.join(__dirname, "packages/core")
+      '@/core': path.join(__dirname, "../packages/core/src")
     }
   }
 });

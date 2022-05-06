@@ -5,9 +5,9 @@ Collection of essential Solidjs composition utilities
 ## 📦 Install
 
 ```bash
-npm i -S solidjs-use
+npm i -S solidjs-composables
 # or
-yarn add solidjs-use
+yarn add solidjs-composables
 ```
 
 ## Composable functions
@@ -21,7 +21,7 @@ yarn add solidjs-use
 #### Functions
 
 - Logical
-    - ✅ `useAtom` - utility for using one variable for get/set Accessors;
+    - ✅ `index` - utility for using one variable for get/set Accessors;
     - ✅ `useToggle` - a boolean switcher with utility functions;
 - Browser
     - ✅ `useEventListener` - event listener that unsubscribe on cleanup;

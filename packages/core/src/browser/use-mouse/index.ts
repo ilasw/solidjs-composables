@@ -1,6 +1,5 @@
 import {createSignal} from "solid-js";
-import {useEventListener} from "./use-event-listener";
-import {useAtom} from "../logical/use-atom";
+import {useEventListener} from "../use-event-listener";
 
 export type UseMouseOptions = {
   /**

@@ -1,5 +1,5 @@
 import {createSignal} from "solid-js";
-import {useEventListener} from "./use-event-listener";
+import {useEventListener} from "../use-event-listener";
 import {isServer} from "solid-js/web";
 
 export const useWindowSize = () => {

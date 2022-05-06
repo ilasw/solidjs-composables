@@ -1,3 +1,3 @@
-export {useMedia} from './browser/use-media';
-export {useToggle} from './logical/use-toggle';
+export * from './browser';
+export * from './logical';
 export * from './network';

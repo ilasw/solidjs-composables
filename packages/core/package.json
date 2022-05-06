@@ -1,6 +1,6 @@
 {
   "name": "solidjs-composables",
-  "version": "0.0.4",
+  "version": "0.0.4-1",
   "description": "Collection of SolidJS composable functions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
