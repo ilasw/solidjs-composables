@@ -1,7 +1,7 @@
 {
   "name": "solidjs-composables",
   "version": "0.0.4-1",
-  "description": "Collection of SolidJS composable functions",
+  "description": "Collection of essential SolidJS hooks/composition utilities",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cp ../../README.md ./dist/README.md && pridepack build && git commit -am \"build: package core\"",
