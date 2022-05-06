@@ -4,7 +4,7 @@
   "description": "Collection of SolidJS composable functions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp README.md ./dist/README.md && pridepack build",
+    "build": "cp ../../README.md ./dist/README.md && pridepack build",
     "publish": "yarn run build && npm publish"
   },
   "main": "./dist/index.js",

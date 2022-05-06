@@ -12,11 +12,21 @@ export type UseMouseOptions = {
   touch: boolean
 }
 
+/**
+ * It returns an object with the current x and y coordinates of the mouse, whether or not the user is touching the screen,
+ * and the source of the event (mouse or touch)
+ * @param options - Partial<UseMouseOptions> = {}
+ * @returns An object with the following properties:
+ *   x: number | null
+ *   y: number | null
+ *   isTouching: boolean | null
+ *   sourceType: "touch" | "mouse" | null
+ */
 export const useMouse = (options: Partial<UseMouseOptions> = {}) => {
   const {type = 'page', touch = true} = options;
   const passive = {passive: true};
 
-  const [sourceType, setSourceType] = createSignal<string | null>(null);
+  const [sourceType, setSourceType] = createSignal<"touch" | "mouse" | null>(null);
   const [x, setX] = createSignal<number | null>(null);
   const [y, setY] = createSignal<number | null>(null);
   const [isTouching, setIsTouching] = createSignal<boolean | null>(null);

@@ -8,7 +8,7 @@ import {
   useMouse,
   useWindowScroll,
   useWindowSize,
-  useAtom
+  useAtom,
 } from "@/core";
 
 const App: Component = () => {
@@ -28,7 +28,7 @@ const App: Component = () => {
         <button onClick={() => name('Luca')}>Set into "Luca"</button>
 
         <p>isOnline: {JSON.stringify(network().isOnline)}</p>
-        <p>IsMobile: {`${isMobile()}`}</p>
+        <p>{isMobile() ? 'is mobile' : 'is not mobile'}</p>
         <p>Mouse position: x:{x()} y:{y()}</p>
         <p>Scroll: {JSON.stringify(scroll())}</p>
         <p>Window Size: {JSON.stringify(size())}</p>
